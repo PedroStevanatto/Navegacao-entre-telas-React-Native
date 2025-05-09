@@ -3,10 +3,10 @@ import { View, Text, Button, StyleSheet, Dimensions } from "react-native";
 
 const windowWidth = Dimensions.get("window").width;
 
-export default function HomeScreen({ navigation }) {
+export default function ProfileScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home Screen</Text>
+      <Text style={styles.title}>Profile Screen</Text>
       <View style={styles.buttonContainer}>
         <Button
             title="Go to Home"

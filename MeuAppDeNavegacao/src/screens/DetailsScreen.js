@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet, Dimensions } from "react-native";
 
 const windowWidth = Dimensions.get("window").width;
 
-export default function HomeScreen({ navigation }) {
+export default function DetailsScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Details Screen</Text>
